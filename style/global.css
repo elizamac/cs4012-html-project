@@ -1,0 +1,106 @@
+.glow:hover {
+	filter: drop-shadow(0px 0px 10px rgba(102, 0, 102, 1));
+}
+
+.paragraph {
+	text-align: justify;
+	font-size: 1.15em;
+	text-indent: 2vw;
+	color: var(--text);
+}
+
+h1 {
+	font-size: 1.4em;
+	color: var(--text);
+}
+
+a {
+	text-decoration: none;
+}
+
+.parent a {
+	width: 40vmin;
+}
+
+main {
+	z-index: 2;
+}
+
+body {
+	padding-top: 8vh;
+	background-color: var(--bg);
+}
+
+.navbar {
+	background-color: var(--base);
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	z-index: 1;
+	height: fit-content;
+}
+
+.navbar div {
+	padding: 10px 10px;
+	width: fit-content;
+	float: left;
+	display: inline;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+
+.navbar i {
+	color: white;
+	font-size: 1.5em;
+}
+
+.navbar div:hover {
+	background-color: darkgrey;
+}
+
+footer {
+    background-color: var(--base);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+}
+
+footer p {
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#pageContainer {
+	position: relative;
+	min-height: 100vh;
+}
+
+#contentContainer {
+	padding-bottom: 5rem;
+}
+
+.backToTop {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-color: var(--base);
+	position: fixed;
+	bottom: 3vw;
+	right: 3vh;
+	z-index: 1;
+}
+
+.backToTop i {
+	color: white;
+	font-size: 40px;
+	position: relative;
+	left: 15px;
+	top: 15px;
+}

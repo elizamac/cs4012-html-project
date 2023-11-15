@@ -1,0 +1,12 @@
+.mouse {
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    padding: 2vw;
+}
+.mouse#right {
+    float: right;
+}
+.mouse#left {
+    float: left;
+}

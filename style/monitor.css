@@ -1,0 +1,19 @@
+.monitor {
+    width: auto;
+    height: 30vh;
+    display: inline-block;
+    padding: 1vw;
+}
+.monitor#right {
+    float: right;
+}
+.monitor#left {
+    float: left;
+}
+
+li {
+    text-align: justify;
+	font-size: 1.15em;
+	text-indent: 2vw;
+	color: var(--text);
+}

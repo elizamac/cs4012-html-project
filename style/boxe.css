@@ -1,0 +1,12 @@
+.boxe {
+    width: auto;
+    height: 15vh;
+    display: inline-block;
+    padding: 1vw;
+}
+.boxe#right {
+    float: right;
+}
+.boxe#left {
+    float: left;
+}
