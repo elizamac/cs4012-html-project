@@ -1,13 +1,13 @@
-.imprimanta {
+.printer {
     width: auto;
     height: 20vh;
     display: inline-block;
     padding: 1vw;
 }
-.imprimanta#right {
+.printer#right {
     float: right;
 }
-.imprimanta#left {
+.printer#left {
     float: left;
 }
 
@@ -18,7 +18,7 @@ td {
     text-align: center;
 }
 
-td .imprimanta {
+td .printer {
     width: 50%;
     height: auto;
 }

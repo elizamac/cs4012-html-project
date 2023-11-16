@@ -14,7 +14,7 @@
     left: calc(301px + 210px + 173px);
 }
 
-.tastatura {
+.keyboard {
     position: absolute;
     top: 390px;
     left: calc(301px + 210px + 50px);
@@ -26,13 +26,13 @@
     left: calc(301px + 210px + 510px);
 }
 
-.carcasa {
+.case {
     position: absolute;
     top: 50px;
     left: calc(301px + 210px + 600px);
 }
 
-.boxe {
+.speakers {
     position: absolute;
     top: 40px;
     left: calc(301px + 30px);
@@ -40,7 +40,7 @@
     height: auto;
 }
 
-.imprimanta {
+.printer {
     position: absolute;
     top: 250px;
     left: 0;

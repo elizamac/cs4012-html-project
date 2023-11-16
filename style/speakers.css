@@ -1,12 +1,12 @@
-.boxe {
+.speakers {
     width: auto;
     height: 15vh;
     display: inline-block;
     padding: 1vw;
 }
-.boxe#right {
+.speakers#right {
     float: right;
 }
-.boxe#left {
+.speakers#left {
     float: left;
 }
