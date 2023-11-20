@@ -1,3 +1,10 @@
+#index-title {
+    text-align: center;
+    padding-bottom: 10px;
+    padding: 6px 0;
+    font-size: 1.8em;
+}
+
 .parent {
     position: relative;
     top: 0
