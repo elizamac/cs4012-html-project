@@ -10,3 +10,8 @@
 .mouse#left {
     float: left;
 }
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
