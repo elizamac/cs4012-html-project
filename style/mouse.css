@@ -4,14 +4,11 @@
     display: inline-block;
     padding: 2vw;
 }
+
 .mouse#right {
     float: right;
 }
+
 .mouse#left {
     float: left;
-}
-.centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
