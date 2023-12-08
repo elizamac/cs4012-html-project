@@ -32,7 +32,7 @@ body {
 }
 
 .navbar {
-	background-color: var(--base);
+	background: linear-gradient(90deg, var(--gradient-left) 0%, var(--gradient-right) 100%);
 	top: 0;
 	left: 0;
 	right: 0;
@@ -60,7 +60,7 @@ body {
 }
 
 .navbar div:hover {
-	background-color: darkgrey;
+	background-color: rgba(178, 70, 255, 0.1);
 }
 
 footer {
@@ -90,7 +90,7 @@ footer p {
 	height: 70px;
 	width: 70px;
 	border-radius: 50%;
-	background-color: var(--base);
+	background: linear-gradient(90deg, var(--gradient-left) 0%, var(--gradient-right) 100%);
 	position: fixed;
 	bottom: 3vw;
 	right: 3vh;
