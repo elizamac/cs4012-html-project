@@ -1,5 +1,8 @@
 :root {
 	--base: rgb(116, 78, 116);
+	--gradient-left: rgba(255,178,237,1);
+	--gradient-right: rgba(147,151,255,1);
+	--navbar-hover: rgba(178, 70, 255, 0.1);
 	--bg: #f7f7f7;
     --text: #212121;
 }
