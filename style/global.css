@@ -60,11 +60,11 @@ body {
 }
 
 .navbar div:hover {
-	background-color: rgba(178, 70, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.08);
 }
 
 footer {
-	background-color: var(--base);
+	background: linear-gradient(90deg, var(--gradient-left) 0%, var(--gradient-right) 100%);
 	position: absolute;
 	bottom: 0;
 	width: 100%;
